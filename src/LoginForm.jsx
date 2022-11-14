@@ -26,7 +26,8 @@ const styles = {
 }
 export default function LoginForm() {
     return (
-        <Paper elevation={20} style={styles.paper}>
+        // ! 24 seems to be the highest elevation.
+        <Paper elevation={24} style={styles.paper}>
             <h2>Login Form</h2>
             <form>
                 <FormControl variant="outlined" style={styles.input}>
